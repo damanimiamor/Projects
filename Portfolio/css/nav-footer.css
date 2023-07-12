@@ -1,0 +1,48 @@
+.navigation {
+    display: flex;
+    justify-content:space-evenly;
+    z-index:1;
+
+}
+
+
+.icon-image {
+    margin-top:10px;
+    height:30px;
+}
+.links {
+    color: black;
+    margin-top:10px;
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+nav:hover .links {
+    color: black;
+}
+footer {
+    color:black;
+    background:#f7c8e0;
+    bottom:0;
+    height:40px;
+    text-align:center;
+    font-family:monospace;
+    font-size: 20px;
+}
+/*Small devices (phones) */
+@media only screen and (max-width:600px) {
+.icon-image {
+    height: 15px;
+}
+.links {
+    font-size:12px;
+}
+}  
+@media only screen and (min-width:601px) and (max-width:900px){
+.icon-image {
+    height:20px;
+}
+.links {
+    font-size: 20px;
+}
+}
